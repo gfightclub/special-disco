@@ -10,10 +10,7 @@ codeFile: movies.rql
 declaration: fetch_top_movies
 format: json
 security:
-  public: false
-  scopes:
-    - cinema
-    - admin
+  public: true
 computeClass: normal
 computeLimitSeconds: 240
 refreshSeconds: 120
