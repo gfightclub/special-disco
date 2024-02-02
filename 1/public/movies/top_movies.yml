@@ -16,6 +16,6 @@ security:
 computeClass: normal
 computeLimitSeconds: 120
 refreshSeconds: 120
-enabled: true
+enabled: false
 buildOnPublish: true
 refreshCron: "*/35 * * * * ?"
