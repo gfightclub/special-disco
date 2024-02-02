@@ -1,0 +1,16 @@
+raw: 0.9 
+endpoint: GET
+metadata:
+  title: Hello
+  description: Hello Baby
+  tags:
+    - hello
+code: snapi
+codeFile: hello.snapi
+format: json
+security:
+  public: false
+computeClass: normal
+computeLimitSeconds: 140
+expireSeconds: 120
+enabled: true
